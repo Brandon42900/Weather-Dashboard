@@ -1,0 +1,102 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    width: 100%;
+    height: 100px;
+    color: White;
+    background: rgb(117, 180, 250);
+    background: linear-gradient(
+      90deg,
+      rgb(255, 110, 110) 0%,
+      rgba(42, 38, 172, 1) 59%
+    );
+    display: flex;
+    align-items: center;
+  }
+  
+  header h1 {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  main {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 30px;
+  }
+  
+  aside {
+    width: 300px;
+    padding: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input {
+    margin: 5px;
+  }
+  
+  #history {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    margin-top: 5px;
+  }
+  
+  button {
+    margin: 5px;
+  }
+  
+  #history {
+    width: 100%;
+    border-top: gray 2px solid;
+  }
+  
+  #weather-display {
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #current {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  #forecast {
+    width: 100%;
+  }
+  
+  #cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    background-color: darkslategrey;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 5px;
+    height: 250px;
+  }
+  
+  .card img {
+    width: 30px;
+    height: 30px;
+  }
